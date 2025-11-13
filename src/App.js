@@ -4,6 +4,8 @@ import Home from './Telas/Home/Home'
 import Clientes from './Telas/Clientes/Clientes'
 import Atendentes from './Telas/Atendentes/Atendentes'
 import Servicos from './Telas/Servicos/Servicos'
+import * as Popper from "@popperjs/core"
+
 function App() {
   return (
     <BrowserRouter>
